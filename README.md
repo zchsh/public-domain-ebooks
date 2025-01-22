@@ -12,6 +12,16 @@ I tried grabbing an `.epub` from `archive.org`, and also checked Project Gutenbe
 
 ## Updates
 
+### 2025-01-22 - tangent to get a black-and-white reduced size pdf
+
+I downloaded a nice PDF of a 1935 edition of A Room of One's Own, but the file is 70 megabytes so I'm nervous to even try to load it onto my e-reader. I want a way to take a fancy full-colour PDF and covert it to black-and-white. Preferably with the option to tune the threshold, and dither effects would be nice to.
+
+Here are some starting points:
+
+- Using `ghostscript` - <https://superuser.com/questions/200378/converting-a-pdf-to-black-white-with-ghostscript>
+- Using `imagemagick` - <https://unix.stackexchange.com/questions/93959/how-to-convert-a-color-pdf-to-black-white>
+- Using `imagemagick` - <https://github.com/ImageMagick/ImageMagick/discussions/2110>
+
 ### 2025-01-21 - diving in
 
 I'm also sure I can use existing tooling for the `.md` to `.epub` conversion. I want to explore what [CommonMark spec](https://commonmark.org/) markdown syntax and features are fully supported. If it's all of them, that'll be great. I also want to explore how markdown syntax translates into the `.epub` format.
