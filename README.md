@@ -16,6 +16,8 @@ I tried grabbing an `.epub` from `archive.org`, and also checked Project Gutenbe
 
 I downloaded a nice PDF of a 1935 edition of A Room of One's Own, but the file is 70 megabytes so I'm nervous to even try to load it onto my e-reader. I want a way to take a fancy full-colour PDF and covert it to black-and-white. Preferably with the option to tune the threshold, and dither effects would be nice to.
 
+For context, my current understanding is that EPUB is more or less XHTML 1.1, but with some limited features, and very limited support for CSS. It seems like fonts can also be embedded. I find this kind of exciting, because it means I might be able to mess around with styling, and try to create an e-book edition of A Room of One's Own that roughly matches the 1935 edition.
+
 Here are some starting points:
 
 - Using `ghostscript` - <https://superuser.com/questions/200378/converting-a-pdf-to-black-white-with-ghostscript>
