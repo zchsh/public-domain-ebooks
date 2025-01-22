@@ -19,3 +19,9 @@ I'm also sure I can use existing tooling for the `.md` to `.epub` conversion. I 
 Selfishly, I do think it'd be kind of neat to experiment with a custom tool. Maybe it could be part of the [unified](https://unifiedjs.com/) ecosystem. Maybe there could be some [frontmatter](https://docs.github.com/en/contributing/writing-for-github-docs/using-yaml-frontmatter) in the markdown file, though I'm surprised at how frontmatter isn't as fully spec'd out and formalized as markdown. Yoink, [Pandoc already seems to support YAML frontmatter](https://pandoc.org/MANUAL.html#epubs).
 
 [Pandoc](https://pandoc.org/installing.html) looks like a promising starting point.
+
+## Resources
+
+- [EPUB on Wikipedia](https://en.wikipedia.org/wiki/EPUB)
+- [EPUB version 3 Specification](https://www.w3.org/TR/epub-33/)
+- [EPUB version 2 Specification](https://www.w3.org/TR/epub-33/)
