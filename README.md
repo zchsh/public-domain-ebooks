@@ -24,10 +24,6 @@ Here are some starting points:
 - Using `imagemagick` - <https://unix.stackexchange.com/questions/93959/how-to-convert-a-color-pdf-to-black-white>
 - Using `imagemagick` - <https://github.com/ImageMagick/ImageMagick/discussions/2110>
 
-```bash
-convert -density 150 -threshold 50% input.pdf output.pdf
-```
-
 ### 2025-01-21 - diving in
 
 I'm also sure I can use existing tooling for the `.md` to `.epub` conversion. I want to explore what [CommonMark spec](https://commonmark.org/) markdown syntax and features are fully supported. If it's all of them, that'll be great. I also want to explore how markdown syntax translates into the `.epub` format.
