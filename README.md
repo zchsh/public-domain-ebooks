@@ -76,3 +76,18 @@ There's an `.epub` validation tool, which seems like it'd be helpful:
 - <https://www.bookery.app/epub_validation>
 
 I'm pretty sure this validation tool is meant for EPUB version 3, which seems to be the current standard.
+
+### Popular public-domain e-books
+
+Neat to see this list from Project Gutenberg... there's definitely some overlap between what people seem to like reading, and what I might enjoy formatting and maybe even illustrating.
+
+- <https://www.gutenberg.org/browse/scores/top>
+
+Also neat to consider that every single year, new works enter the public domain in Canada... or at least they used to, there are **NO NEW PUBLIC DOMAIN WORKS IN CANADA UNTIL 2043**, which means we _just_ missed the chance to have The Lord of the Rings in the public domain:
+
+- <https://www.cbc.ca/news/entertainment/canada-public-domain-pause-1.6706498>
+- <https://gutenberg.ca/index.html>
+
+Of course, there's still a hefty amount of neat stuff already in the public domain. And, copyright expiration isn't the only way that works enter the public domain... people also sometimes choose to put them there!
+
+- <https://en.wikipedia.org/wiki/Category:Public_domain_books>
