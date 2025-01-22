@@ -37,3 +37,26 @@ Selfishly, I do think it'd be kind of neat to experiment with a custom tool. May
 - [EPUB on Wikipedia](https://en.wikipedia.org/wiki/EPUB)
 - [EPUB version 3 Specification](https://www.w3.org/TR/epub-33/)
 - [EPUB version 2 Specification](https://www.w3.org/TR/epub-33/)
+
+### Footnotes
+
+EPUB footnotes are apparently a thing, which is great, cause _A Room of One's Own_ has some inline footnotes.
+
+- <https://help.apple.com/itc/booksassetguide/en.lproj/itccf8ecf5c8.html>
+- <https://pigsgourdsandwikis.blogspot.com/2012/05/creating-pop-up-footnotes-in-epub-3-and.html>
+- <https://www.mobileread.com/forums/showthread.php?t=359042>
+
+The TLDR seems to be:
+
+```html
+<!--Converting to single lines-->
+<!--Inline-->
+<p>This is some text that needs a footnote.<a href="FN_Section0001.xhtml#fn1" epub:type="noteref" id="bookfn1">[1]</a></p>
+
+<!-- Footnote content -->
+<body>
+<aside epub:type="footnote" id="fn1">
+  <p>This is the content of the footnote. <a href="9780061807145_Chapter_1_split_000.xhtml#bookfn1">↩</a></p>
+</aside>
+</body>
+```
