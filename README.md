@@ -62,3 +62,17 @@ The TLDR seems to be:
 ```
 
 Note that CommonMark does _not_ support the usual footnote syntax, [as supported on GitHub](https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/) for example. Instead, it seems like raw HTML is the way to go, which is of course supported in CommonMark. The GitHub-style syntax does seem to have a significant limitation, which is that footnotes seem to have to be defined at the bottom of the document. Maybe the HTML way is better anyways, to let the epub properly reflect the author's intent in terms of where the footnote should appear.
+
+### Building an epub file from scratch
+
+As much as I'm interested in generating an `.epub` file straight from file types that are more familiar to me, like markdown, I think it'd be fun to get a little more acquainted with how `.epub` files actually work under the hood.
+
+This seems like a good starting point... but it might be EPUB version 2?
+
+- <https://thansen0.github.io/Building-an-epub-file/components.html>
+
+There's an `.epub` validation tool, which seems like it'd be helpful:
+
+- <https://www.bookery.app/epub_validation>
+
+I'm pretty sure this validation tool is meant for EPUB version 3, which seems to be the current standard.
