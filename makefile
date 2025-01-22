@@ -4,4 +4,4 @@ hello:
 
 # Demo file from 
 pandoc_demo:
-	pandoc ./markdown/2025-01-21-pandoc-test-book.md -o ./public/2025-01-21-pandoc-test-book.epub
+	pandoc ./markdown/test-book.md -o ./public/test-book.epub
