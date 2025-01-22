@@ -60,3 +60,5 @@ The TLDR seems to be:
 </aside>
 </body>
 ```
+
+Note that CommonMark does _not_ support the usual footnote syntax, [as supported on GitHub](https://github.blog/changelog/2021-09-30-footnotes-now-supported-in-markdown-fields/) for example. Instead, it seems like raw HTML is the way to go, which is of course supported in CommonMark. The GitHub-style syntax does seem to have a significant limitation, which is that footnotes seem to have to be defined at the bottom of the document. Maybe the HTML way is better anyways, to let the epub properly reflect the author's intent in terms of where the footnote should appear.
