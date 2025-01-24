@@ -32,11 +32,30 @@ Selfishly, I do think it'd be kind of neat to experiment with a custom tool. May
 
 [Pandoc](https://pandoc.org/installing.html) looks like a promising starting point.
 
+## Standard eBooks
+
+[Standard eBooks](https://standardebooks.org/) is a thing. Looks like basically what I'm thinking of doing, but with more rigid standards.
+
+Website doesn't seem to work in Firefox, works in Google Chrome though.
+
+They have a contribution guide at <https://standardebooks.org/contribute>, and a list of "Wanted eBooks" at <https://standardebooks.org/contribute/wanted-ebooks>.
+  
+One of the lead maintainers has a neat blog post from a while ago on DRM-free ebooks: <https://alexcabal.com/the-results-from-our-pay-what-you-want-ebook-pricing-experiment-are-in>.
+
+Notably, _Standard eBooks_ pretty much always _excludes illustrations_. I feel like I kind of want to go in a bit of an opposite direction of a "standard" aesthetic... and instead, either try to re-create the oldest print edition I can find, or have fun with illustrations.
+
+Side note: _20,000 Leagues Under the Seas_ doesn't seem to have an "acceptable public domain translation", according to <https://standardebooks.org/contribute/wanted-ebooks>. The original is in French.
+
+Standard eBooks feels like maybe an opportunity for a POSSE-style approach. IE, make the version of the eBook that you want to make... and if Standard eBooks happens to not have that book yet, then you could re-format it to their specs and try to participate. Of course... I have _lots_ to learn about ebook formatting before I can even really consider that... Coincidentally though, Standard eBooks does _not_ yet have a version of Virginia Woolf's _A Room of One's Own_.
+
+They also have a [Manual of Style](https://standardebooks.org/manual/1.8.1/single-page) that seems like it could be a _great_ place to start to further understand `.epub` without have to read through the very dry spec.
+
 ## Resources
 
 - [EPUB on Wikipedia](https://en.wikipedia.org/wiki/EPUB)
 - [EPUB version 3 Specification](https://www.w3.org/TR/epub-33/)
 - [EPUB version 2 Specification](https://www.w3.org/TR/epub-33/)
+- [EPUB 3 Structural Semantics](https://www.w3.org/TR/epub-ssv-11)
 
 ### Footnotes
 

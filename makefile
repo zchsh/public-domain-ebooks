@@ -16,3 +16,9 @@ epub_custom:
 	rm -f ./public/test-custom.epub; \
 	cd ./custom/test-custom; \
 	zip -rX ../../public/test-custom.epub mimetype META-INF CONTENTS -x "*.DS_Store";
+
+# Zip up the A Room Of One's Own ebook contents
+epub_arooo:
+	rm -f ./public/test-room-of-ones-own.epub; \
+	cd ./custom/test-room-of-ones-own; \
+	zip -rX ../../public/test-room-of-ones-own.epub mimetype META-INF CONTENTS -x "*.DS_Store";

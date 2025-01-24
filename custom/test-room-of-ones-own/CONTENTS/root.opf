@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<package xmlns="http://www.idpf.org/2007/opf"
+	xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="db-id" version="3.0" xml:lang="en">
+
+	<metadata>
+		<dc:title id="t1">A Room of One's Own</dc:title>
+		<dc:creator id="author">Virginia Woolf</dc:creator>
+		<meta refines="#author" property="role" scheme="marc:relators">aut</meta>
+		<dc:identifier id="db-id">TODO-UNIQUE-ID-FOR-THIS-BOOK</dc:identifier>
+		<meta property="dcterms:modified">2016-12-31T15:25:13Z</meta>
+		<dc:language>en</dc:language>
+		<meta property="schema:accessibilitySummary">
+        This publication conforms to WCAG 2.0 Level AA.
+		</meta>
+		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
+		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">index</meta>
+		<meta property="schema:accessibilityHazard">noFlashingHazard</meta>
+		<meta property="schema:accessibilityHazard">noSoundHazard</meta>
+		<meta property="schema:accessibilityHazard">noMotionSimulationHazard</meta>
+		<!-- Text alone should be sufficient to understand this publication -->
+		<meta property="schema:accessModeSufficient">textual</meta>
+	</metadata>
+
+	<manifest>
+		<item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml" />
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="template_css" href="CSS/template.css" media-type="text/css" />
+		<item id="preliminary" href="preliminary.xhtml" media-type="application/xhtml+xml" />
+		<item id="chapter_1" href="chapter_1.xhtml" media-type="application/xhtml+xml" />
+		<item id="chapter_2" href="chapter_2.xhtml" media-type="application/xhtml+xml" />
+		<item id="chapter_3" href="chapter_3.xhtml" media-type="application/xhtml+xml" />
+	</manifest>
+
+	<spine toc="ncx">
+		<itemref idref="preliminary" />
+		<itemref idref="toc" />
+		<itemref idref="chapter_1" />
+		<itemref idref="chapter_2" />
+		<itemref idref="chapter_3" />
+	</spine>
+
+</package>
