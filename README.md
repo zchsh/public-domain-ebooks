@@ -10,6 +10,15 @@ Our book this month is [A Room of One's Own](https://en.wikipedia.org/wiki/A_Roo
 
 I tried grabbing an `.epub` from `archive.org`, and also checked Project Gutenberg, but I noticed a few little nit-picky things that didn't feel smooth and polished reading on my Kobo. So I figured it'd be worth doing a little investigation, and experimenting with generating `.epub` files from markdown. If I end up liking the workflow, maybe I can run with it and find public domain works that aren't yet in `.epub`, and see if I can contribute a little bit.
 
+## Local Development
+
+Currently I'm working on _A Room of One's Own_ by Virginia Woolf.
+
+- `make epub_arooo` builds out `public/test-room-of-ones-own.epub`
+  - It also immediately opens the output file, should open in Apple Books
+
+You can validate your `.epub` with <https://www.bookery.app/epub_validation>.
+
 ## Updates
 
 ### 2025-01-22 - tangent to get a black-and-white reduced size pdf

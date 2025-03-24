@@ -22,3 +22,6 @@ epub_arooo:
 	rm -f ./public/test-room-of-ones-own.epub; \
 	cd ./custom/test-room-of-ones-own; \
 	zip -rX ../../public/test-room-of-ones-own.epub mimetype META-INF CONTENTS -x "*.DS_Store";
+	open '/Users/zachshilton/code/public-domain-ebooks/public/'
+	open '/Users/zachshilton/code/public-domain-ebooks/public/test-room-of-ones-own.epub'
+	
