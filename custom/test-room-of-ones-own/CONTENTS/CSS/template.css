@@ -132,7 +132,7 @@ body {
 /* HALF TITLE PAGE */
 
 #p-preliminary #s-halftitlepage {
-	page-break-after: always;
+	/* NOTE: first page, so no page-break-before is needed */
 }
 
 #p-preliminary #s-halftitlepage h1 {
@@ -141,12 +141,13 @@ body {
 	margin-top: 1rem;
 	text-align: center;
 	text-transform: uppercase;
+	-epub-text-transform: uppercase;
 }
 
 /* TITLE PAGE */
 
 #p-preliminary #s-titlepage {
-	page-break-after: always;
+	page-break-before: always;
 }
 
 #p-preliminary #s-titlepage h1 {
@@ -155,6 +156,7 @@ body {
 	margin-top: 1rem;
 	text-align: center;
 	text-transform: uppercase;
+	-epub-text-transform: uppercase;
 }
 
 #p-preliminary #s-titlepage h2 {
@@ -163,13 +165,14 @@ body {
 	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
+	-epub-text-transform: uppercase;
 	letter-spacing: 0.05em;
 }
 
 #p-preliminary #s-titlepage img {
 	display: block;
 	margin: 2rem auto;
-	width: 100pt;
+	width: 6rem;
 	height: auto;
 }
 
@@ -179,8 +182,11 @@ body {
 	margin: 0 auto;
 	max-width: 22em;
 	text-align-last: justify;
+	-epub-text-align-last: justify;
 	text-align: justify;
 	text-transform: uppercase;
+	-epub-text-transform: uppercase;
 	word-break: keep-all;
+	-epub-word-break: keep-all;
 	letter-spacing: 0.05em;
 }
