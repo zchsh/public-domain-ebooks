@@ -21,6 +21,10 @@ You can validate your `.epub` with <https://www.bookery.app/epub_validation>.
 
 ## Updates
 
+### 2025-03-24 - loading via USB works better
+
+I _just_ tried loading the exact same file as before over USB. Image on the cover page is working now. Maybe it was actually the `media-type` in `root.opf`... previously was `jpeg` when it should have been `png`... either way, definitely faster to load via USB that going into a web browser. Also promising for managing my own library of `.epub` books!
+
 ### 2025-03-24 - wrestling with kobo
 
 I have a _kind of_ decent REPL loop workflow where I open output `.epub` files in Apple Books. Currently I'm working on `A Room of One's Own`, which outputs to `public/arooo.epub`.
