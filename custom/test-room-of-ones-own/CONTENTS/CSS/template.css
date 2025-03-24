@@ -140,8 +140,6 @@ body {
 	font-weight: 400;
 	margin-top: 1em;
 	text-align: center;
-	text-transform: uppercase;
-	-epub-text-transform: uppercase;
 } */
 
 /* TITLE PAGE */
@@ -153,10 +151,8 @@ body {
 #p-preliminary #s-titlepage h1 {
 	font-size: 1.125em;
 	font-weight: 400;
-	margin-top: 1em;
+	padding-top: 1em;
 	text-align: center;
-	text-transform: uppercase;
-	-epub-text-transform: uppercase;
 }
 
 #p-preliminary #s-titlepage h2 {
@@ -164,8 +160,6 @@ body {
 	margin-top: 1.5em;
 	font-weight: 400;
 	text-align: center;
-	text-transform: uppercase;
-	-epub-text-transform: uppercase;
 	letter-spacing: 0.05em;
 }
 
@@ -181,12 +175,8 @@ body {
 	font-size: 0.75em;
 	margin: 0 auto;
 	max-width: 22em;
-	text-align-last: justify;
-	-epub-text-align-last: justify;
 	text-align: justify;
-	text-transform: uppercase;
-	-epub-text-transform: uppercase;
+	text-align-last: justify;
 	word-break: keep-all;
-	-epub-word-break: keep-all;
 	letter-spacing: 0.05em;
 }
