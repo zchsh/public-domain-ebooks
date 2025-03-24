@@ -131,18 +131,18 @@ body {
 
 /* HALF TITLE PAGE */
 
-#p-preliminary #s-halftitlepage {
-	/* NOTE: first page, so no page-break-before is needed */
-}
+/* #p-preliminary #s-halftitlepage { */
+/* NOTE: first page, so no page-break-before is needed */
+/* } */
 
-#p-preliminary #s-halftitlepage h1 {
+/* #p-preliminary #s-halftitlepage h1 {
 	font-size: 1em;
 	font-weight: 400;
 	margin-top: 1em;
 	text-align: center;
 	text-transform: uppercase;
 	-epub-text-transform: uppercase;
-}
+} */
 
 /* TITLE PAGE */
 
