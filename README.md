@@ -21,6 +21,25 @@ You can validate your `.epub` with <https://www.bookery.app/epub_validation>.
 
 ## Updates
 
+### 2025-03-24 - wrestling with kobo
+
+I have a _kind of_ decent REPL loop workflow where I open output `.epub` files in Apple Books. Currently I'm working on `A Room of One's Own`, which outputs to `public/arooo.epub`.
+
+One challenge has been figuring out what CSS features actually have universal support. For example, `text-transform: uppercase` seems to work in Apple Books, but my Kobo reader completely ignores it. Similarly, I got images working in Apple Books, but I haven't got them working on my Kobo yet. The workflow to test a book on my Kobo takes a lot more time, since I have to open the Kobo browser, type the URL in, "Download" the `.epub`, and finally, open it.
+
+Here are some links that might be helpful in trying to get content to display correctly on Kobo:
+
+- EPUB 3.3 specification: <https://www.w3.org/TR/epub-33/>
+- CSS 2.1 specification: <https://www.w3.org/TR/CSS2/>
+  - In theory, all standard CSS should be supported. In practice, we can't have nice things.
+- Kobo ePub spec: <https://github.com/kobolabs/epub-spec>
+  - In addition to the already weird and limited mix of what CSS and HTML features should be supported in `.epub` but aren't in practice, Kobo has a specific set of requirements, which could just as accurately be called a specific set of shit they're too lazy to implement
+- Kepub - <https://www.reddit.com/r/kobo/comments/sfl11h/epub_vs_kepub/>, see also <https://pgaskin.net/kepubify/>
+
+This also has me thinking about the hardware and firmware aspect of things... it's frustrating that we have a clear and agreed-upon standard in ePub 3.3, but device manufacturers are apparently just ignoring it. Maybe open hardware is the answer:
+
+- <https://github.com/joeycastillo/The-Open-Book> (<https://www.oddlyspecificobjects.com/projects/openbook/>)
+
 ### 2025-01-22 - tangent to get a black-and-white reduced size pdf
 
 I downloaded a nice PDF of a 1935 edition of A Room of One's Own, but the file is 70 megabytes so I'm nervous to even try to load it onto my e-reader. I want a way to take a fancy full-colour PDF and covert it to black-and-white. Preferably with the option to tune the threshold, and dither effects would be nice to.
