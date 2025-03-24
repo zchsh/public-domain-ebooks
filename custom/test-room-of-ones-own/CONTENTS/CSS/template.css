@@ -30,3 +30,15 @@ li {
 	font-size: 1.2em;
 	line-height: 1.4em;
 }
+
+/* HALFTITLEPAGE */
+
+#p-preliminary #s-halftitlepage {
+	border: 1px solid magenta;
+	page-break-after: always;
+}
+
+#p-preliminary #s-titlepage {
+	border: 1px solid magenta;
+	page-break-after: always;
+}
