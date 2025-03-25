@@ -27,6 +27,8 @@ Seems to be a combo of metadata in the `root.opf` file... and apparently also a 
 
 - <https://github.com/IDPF/epub3-samples>
 
+So far, the cover seems to be set correctly, since I can see it in Finder previews on macOS... but it's not yet showing up on my Kobo! Weird.
+
 ### 2025-03-24 - loading via USB works better
 
 I _just_ tried loading the exact same file as before over USB. Image on the cover page is working now. Maybe it was actually the `media-type` in `root.opf`... previously was `jpeg` when it should have been `png`... either way, definitely faster to load via USB that going into a web browser. Also promising for managing my own library of `.epub` books!
