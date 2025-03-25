@@ -21,7 +21,7 @@ epub_custom:
 epub_arooo:
 	rm -f ./public/test-room-of-ones-own.epub; \
 	cd ./custom/test-room-of-ones-own; \
-	zip -rX ../../public/a-room-of-ones-own.epub mimetype META-INF CONTENTS -x "*.DS_Store" && open '/Users/zachshilton/code/public-domain-ebooks/public/a-room-of-ones-own.epub'
-# open '/Users/zachshilton/code/public-domain-ebooks/public/'
+	zip -rX ../../public/a-room-of-ones-own.epub mimetype META-INF CONTENTS -x "*.DS_Store"
+	cp -R '/Users/zachshilton/code/public-domain-ebooks/public/a-room-of-ones-own.epub' '/Volumes/KOBOeReader/A Room of Ones Own.epub'
 	
 	
