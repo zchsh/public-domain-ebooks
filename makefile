@@ -22,6 +22,8 @@ epub_arooo:
 	rm -f ./public/test-room-of-ones-own.epub; \
 	cd ./custom/test-room-of-ones-own; \
 	zip -rX ../../public/a-room-of-ones-own.epub mimetype META-INF CONTENTS -x "*.DS_Store"
-	cp -R '/Users/zachshilton/code/public-domain-ebooks/public/a-room-of-ones-own.epub' '/Volumes/KOBOeReader/A Room of Ones Own.epub'
+	kepubify ./public/a-room-of-ones-own.epub --output './public'
+	cp -R ./public/a-room-of-ones-own_converted.kepub.epub /Volumes/KOBOeReader/
+	
 	
 	

@@ -129,18 +129,17 @@ body {
 	font-family: "acaslonpro";
 }
 
-/* HALF TITLE PAGE */
+/* COVER PAGE */
 
-/* #p-preliminary #s-halftitlepage { */
-/* NOTE: first page, so no page-break-before is needed */
-/* } */
-
-/* #p-preliminary #s-halftitlepage h1 {
-	font-size: 1em;
-	font-weight: 400;
-	margin-top: 1em;
-	text-align: center;
-} */
+#p-cover img {
+	/* Not sure if any styles are needed? Maybe not? */
+	/* How can I "fill" the cover image page? Maybe large image does it already? */
+	/* Could reference Calibre output, but for now, this seems to work */
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	width: auto;
+}
 
 /* TITLE PAGE */
 
@@ -166,7 +165,7 @@ body {
 #p-preliminary #s-titlepage img {
 	display: block;
 	margin: 2em auto;
-	width: 6em;
+	width: 4em;
 	height: auto;
 }
 

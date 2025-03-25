@@ -30,6 +30,7 @@
 		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
 		<item id="cover" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image" />
 		<item id="template_css" href="CSS/template.css" media-type="text/css" />
+		<item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
 		<item id="preliminary" href="preliminary.xhtml" media-type="application/xhtml+xml" />
 		<item id="chapter_1" href="chapter_1.xhtml" media-type="application/xhtml+xml" />
 		<item id="chapter_2" href="chapter_2.xhtml" media-type="application/xhtml+xml" />
@@ -39,6 +40,7 @@
 	</manifest>
 
 	<spine toc="ncx">
+		<itemref idref="cover" />
 		<itemref idref="preliminary" />
 		<itemref idref="toc" />
 		<itemref idref="chapter_1" />

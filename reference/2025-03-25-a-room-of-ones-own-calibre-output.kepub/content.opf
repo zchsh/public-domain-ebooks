@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="uuid_id" prefix="calibre: https://calibre-ebook.com">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
+    <dc:title id="id">A Room of One’s Own</dc:title>
+    <dc:creator id="id-1">Virginia Woolf</dc:creator>
+    <dc:contributor id="id-2">calibre (8.0.1) [https://calibre-ebook.com]</dc:contributor>
+    <dc:identifier>calibre:2</dc:identifier>
+    <dc:identifier>uuid:83bf137c-46f8-4992-a6a9-0fb9a4543c91</dc:identifier>
+    <dc:identifier id="uuid_id">uuid:83bf137c-46f8-4992-a6a9-0fb9a4543c91</dc:identifier>
+    <dc:language>en</dc:language>
+    <meta refines="#id" property="title-type">main</meta>
+    <meta refines="#id" property="file-as">Room of One’s Own, A</meta>
+    <meta name="cover" content="cover"/>
+    <meta refines="#id-2" property="role" scheme="marc:relators">bkp</meta>
+    <meta property="calibre:timestamp" scheme="dcterms:W3CDTF">2025-03-25T12:52:37Z</meta>
+    <meta property="dcterms:modified" scheme="dcterms:W3CDTF">2025-03-25T12:55:22Z</meta>
+    <meta refines="#id-1" property="role" scheme="marc:relators">aut</meta>
+    <meta refines="#id-1" property="file-as">Woolf, Virginia</meta>
+  </metadata>
+  <manifest>
+    <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg calibre:title-page"/>
+    <item id="preliminary" href="CONTENTS/preliminary.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc" href="CONTENTS/toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="chapter_1" href="CONTENTS/chapter_1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_2" href="CONTENTS/chapter_2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter_3" href="CONTENTS/chapter_3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="page_css" href="page_styles.css" media-type="text/css"/>
+    <item id="css" href="stylesheet.css" media-type="text/css"/>
+    <item id="images-seal-png" href="CONTENTS/images/seal.png" media-type="image/png"/>
+    <item id="cover" href="cover.jpeg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="fonts-acaslonpro-regular-otf" href="CONTENTS/fonts/acaslonpro-regular.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="js-kobo.js" href="kobo.js" media-type="application/javascript"/>
+  </manifest>
+  <spine>
+    <itemref idref="titlepage"/>
+    <itemref idref="preliminary"/>
+    <itemref idref="toc"/>
+    <itemref idref="chapter_1"/>
+    <itemref idref="chapter_2"/>
+    <itemref idref="chapter_3"/>
+  </spine>
+</package>

@@ -1,0 +1,10 @@
+@page {
+  margin-bottom: 5pt;
+  margin-top: 5pt;
+}
+@font-face {
+  font-family: "acaslonpro";
+  font-style: normal;
+  font-weight: 400;
+  src: url(CONTENTS/fonts/acaslonpro-regular.otf);
+}

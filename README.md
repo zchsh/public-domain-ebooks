@@ -21,6 +21,14 @@ You can validate your `.epub` with <https://www.bookery.app/epub_validation>.
 
 ## Updates
 
+### 2025-03-25 - trying out kepubify
+
+On first look, <https://pgaskin.net/kepubify/try/> seems to do exactly what it promises - take a standard `.epub` formatted book, and make it work on Kobo. I installed Kepubify with `brew install kepubify`.
+
+This seems to work - I've added `kepubify` to this project's makefile, and now I can see the cover page I've set on my Kobo. However, I still don't have a starting "cover image page" like all my other Kobo e-books seem to do... I think this is where I want to go with the now-orphaned `cover.xhtml` file. That seems like a decent next step!
+
+I've got this working through the `Calibre` app... but I haven't tried making it work from scratch. There's some output in the `reference` folder that I exported from Calibre. I _think_ I may mostly have been missing the addition to the spine...
+
 ### 2025-03-25 - getting a cover image working
 
 Seems to be a combo of metadata in the `root.opf` file... and apparently also a page in the document? Need to figure out the latter. EPUB _samples_ feel like they might be handy here, as well as generally:
@@ -28,6 +36,8 @@ Seems to be a combo of metadata in the `root.opf` file... and apparently also a 
 - <https://github.com/IDPF/epub3-samples>
 
 So far, the cover seems to be set correctly, since I can see it in Finder previews on macOS... but it's not yet showing up on my Kobo! Weird.
+
+On further investigation, I compiled an EPUB from the `epub3-samples` via a [fork of that repo](https://github.com/zchsh/epub3-samples). After loading this onto my Kobo, the cover image still isn't displaying correctly. So there must be something Kobo-specific that I have to do... Might be worth trying <https://pgaskin.net/kepubify/try/>, and seeing what the output looks like?
 
 ### 2025-03-24 - loading via USB works better
 

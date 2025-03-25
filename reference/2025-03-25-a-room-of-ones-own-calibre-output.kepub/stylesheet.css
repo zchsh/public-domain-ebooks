@@ -1,0 +1,125 @@
+.calibre {
+  box-sizing: border-box;
+  font-family: "acaslonpro";
+  font-size: 1em;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: currentColor none 0;
+}
+.calibre1 {
+  box-sizing: border-box;
+  display: block;
+  font-family: "acaslonpro";
+  font-size: 1em;
+  vertical-align: baseline;
+  margin: 0 5pt;
+  padding: 0;
+  border: currentColor none 0;
+}
+.calibre2 {
+  box-sizing: border-box;
+  font-size: 1em;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: currentColor none 0;
+}
+.calibre3 {
+  box-sizing: border-box;
+  display: block;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 1em 0 0;
+  border: currentColor none 0;
+}
+.calibre4 {
+  box-sizing: border-box;
+  display: block;
+  font-size: 0.625em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-align: center;
+  vertical-align: baseline;
+  margin: 1.5em 0 0;
+  padding: 0;
+  border: currentColor none 0;
+}
+.calibre5 {
+  box-sizing: border-box;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  vertical-align: baseline;
+  width: 6em;
+  margin: 2em auto;
+  padding: 0;
+  border: currentColor none 0;
+}
+.calibre6 {
+  box-sizing: border-box;
+  display: block;
+  font-size: 0.625em;
+  letter-spacing: 0.05em;
+  max-width: 22em;
+  text-align: justify;
+  text-align-last: justify;
+  vertical-align: baseline;
+  word-break: keep-all;
+  margin: 0 auto;
+  padding: 0;
+  border: currentColor none 0;
+}
+.calibre7 {
+  box-sizing: border-box;
+  font-size: 1em;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: currentColor none 0;
+}
+.calibre8 {
+  box-sizing: border-box;
+  display: list-item;
+  font-size: 1em;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: currentColor none 0;
+}
+.calibre9 {
+  box-sizing: border-box;
+  display: block;
+  font-size: 1em;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: currentColor none 0;
+}
+.contents {
+  box-sizing: border-box;
+  display: block;
+  font-size: 1em;
+  list-style-type: decimal;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-top: 0;
+  vertical-align: baseline;
+  border: currentColor none 0;
+}
+.frontmatter {
+  box-sizing: border-box;
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: currentColor none 0;
+}
